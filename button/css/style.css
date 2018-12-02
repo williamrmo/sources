@@ -1,0 +1,111 @@
+/* $color-alert: rgb(252,228,207); 
+$color-error: rgb(218,79,73);
+$color-invert: invert($color-error);
+$color-info:   rgb(66, 184, 221);
+$color-success: rgb(91,183,91); */
+
+body {
+    display: grid;
+    justify-content: center;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    text-transform: capitalize;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+}
+
+div {
+    margin: 20px;
+}
+
+.btn-1 {
+    text-transform: uppercase;
+    border: none;
+    padding: 10px;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    outline: none;
+    cursor: pointer;
+    width: 100px;
+    border-radius: 10px;
+}
+
+.btn-1:hover {
+    opacity: 0.5;
+}
+
+.btn-2 {
+    text-transform: uppercase;
+    border: none;
+    padding: 10px;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    outline: none;
+    cursor: pointer;
+    width: 100px;
+}
+
+.btn-2:hover {
+    opacity: 0.5;
+}
+
+.btn-3 {
+    text-transform: uppercase;
+    border: none;
+    padding: 10px;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    outline: none;
+    cursor: pointer;
+    width: 100px;
+    border-radius: 25px;
+}
+
+.btn-3:hover {
+    opacity: 0.5;
+}
+
+.btn-4 {
+    text-transform: uppercase;
+    border: none;
+    padding: 10px;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    outline: none;
+    cursor: pointer;
+    width: 100px;
+    border-bottom: 5px solid rgba(0, 0, 0, 0.5);
+}
+
+.btn-4:hover {
+    opacity: 0.5;
+    border-bottom: 5px solid rgba(0, 0, 0, 0);
+}
+
+.btn-primary{
+    background: #4783CE;
+}
+
+.btn-submit {
+    background: #095DC4;
+}
+
+.btn-info {
+    background: rgb(66, 184, 221);
+}
+
+.btn-success {
+    background: rgb(91,183,91);
+}
+
+.btn-warning {
+    background: #FF530D; 
+}
+
+.btn-danger {
+    background: #C40000;
+}
